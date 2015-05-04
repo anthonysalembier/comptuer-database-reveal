@@ -1,15 +1,91 @@
- #authors {
-     font-size: 25px;
-     margin-top: 100px;
- }
+#authors {
+ font-size: 25px;
+ margin-top: 100px;
+}
 
- .norris  {
-     background-size: contain !important;
-     background: url(../images/thumbup-norris.gif) no-repeat;
-     width: 600px !important;
-     height: 600px !important;
-     margin-left: auto !important;
-     margin-right: auto !important;
-     margin-top: 15% !important;
+.norris  {
+ background-size: contain !important;
+ background: url(../images/thumbup-norris.gif) no-repeat;
+ width: 600px !important;
+ height: 600px !important;
+ margin-left: auto !important;
+ margin-right: auto !important;
+ margin-top: 15% !important;
+}
 
- }
+.image {
+    background-size: contain !important;
+    width: 600px !important;
+    height: 320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#add {
+    background: url(../images/add.png) no-repeat;
+}
+
+#delete {
+    background: url(../images/delete.png) no-repeat;
+}
+
+#edit {
+    background: url(../images/edit.png) no-repeat;
+}
+
+#i18n {
+    background: url(../images/i18n.png) no-repeat;
+}
+
+#listing {
+    background: url(../images/listing.png) no-repeat;
+}
+
+#login {
+    background: url(../images/login.png) no-repeat;
+}
+
+#pagination {
+    background: url(../images/pagination.png) no-repeat;
+}
+
+#search {
+    background: url(../images/search.png) no-repeat;
+}
+
+.logo {
+    bottom: 15px !important;
+    left: 15px !important;
+    position: absolute !important;
+    color: white;
+    text-shadow: 0 1px 0 #999,
+                 0 2px 0 #AAA,
+                 0 4px 1px rgba(0, 0, 0, .1),
+                 0 0 5px rgba(0, 0, 0, .1),
+                 0 1px 3px rgba(0, 0, 0, .3),
+                 0 3px 5px rgba(0, 0, 0, .2);
+}
+
+.logo img {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    margin-bottom: -13px;
+}
+
+.logo div {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.logo span {
+    display: inline-block;
+    color: #5ec6ff;
+    margin-left: -6px;
+    text-shadow: 0 1px 0 #5E7C96,
+                 0 2px 0 #2BA6E8,
+                 0 4px 1px rgba(0, 0, 0, .1),
+                 0 0 5px rgba(0, 0, 0, .1),
+                 0 1px 3px rgba(0, 0, 0, .3),
+                 0 3px 5px rgba(0, 0, 0, 0.2);
+}
